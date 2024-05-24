@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etname"
+        android:hint="Enter your name"
+
+        />
+    <EditText
+        android:hint="Enter contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etcontact"
+        />
+    <EditText
+        android:hint="Enter your email id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        />
+    <EditText
+        android:hint="Email address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAddress"
+        />
+    <EditText
+        android:hint="Enter job title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etJobTitle"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Qualification"
+        android:id="@+id/etQaulification"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDate"
+        android:text="Date"
+        android:gravity="end"
+        />
+
+</LinearLayout>
